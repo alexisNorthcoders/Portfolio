@@ -14,6 +14,7 @@ import platformer from "../assets/img/platformer.gif";
 import express from "../assets/img/express.png";
 import platemate from "../assets/img/platemate.png";
 import raspberry from "../assets/img/raspberry.png";
+import portfolio from "../assets/img/portfolio.png";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -110,6 +111,12 @@ function Projects() {
       imgUrl: reactchat,
       url: "https://alexisraspberry.changeip.co/chat",
       stack: ["JavaScript", "React", "OpenAI", "Nodejs", "Express"]
+    },{
+      title: "Portfolio",
+      description: "React App to showcase multiple projects.",
+      imgUrl:portfolio,
+      github: "https://github.com/alexisNorthcoders/Portfolio",
+      stack: ["JavaScript (jsx)", "React", "Bootstrap", "CSS"]
     },
 
 
