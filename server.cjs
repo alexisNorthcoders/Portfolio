@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+require('dotenv').config()
 
 
 const app = express();
@@ -27,6 +28,7 @@ contactEmail.verify((error) => {
 });
 
 router.post("/contact", (req, res) => {
+ 
   const name = req.body.firstName + req.body.lastName;
   const email = req.body.email;
   const message = req.body.message;
@@ -40,6 +42,7 @@ router.post("/contact", (req, res) => {
            <p>Phone: ${phone}</p>
            <p>Message: ${message}</p>`,
   };
+  console.log(name,email,message,phone,mail)
   contactEmail.sendMail(mail, (error) => {
     if (error) {
       res.json(error);
