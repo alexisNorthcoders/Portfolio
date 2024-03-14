@@ -14,7 +14,7 @@ function Footer() {
                         <div className="social-icon mt-2">
                         <a href="https://www.linkedin.com/in/alexis-creoulo-935534213/"><FontAwesomeIcon icon={faLinkedinIn} style={{ color: 'white' }} /></a>
                             <a href="https://github.com/alexisNorthcoders"><FontAwesomeIcon icon={faGithub} style={{ color: 'white' }} /></a>
-                            <p>2024</p>
+                            <p>Alexis Creoulo 2024</p>
                             </div>
                         
                     </Col>
