@@ -93,15 +93,16 @@ function Projects() {
 
     {
       title: "Platformer Game",
-      description: "Small platformer game to showcase html Canvas with game physics and mechanics",
+      description: "Small platformer game drawn on HTML Canvas to showcase OOP principles with game physics and mechanics. ",
       imgUrl: platformer,
       github: "https://github.com/alexisNorthcoders/Platformer-Game",
       stack: ["JavaScript", "HTML", "Canvas", "Sprites"]
     },
     {
       title: "PlateMate",
-      description: "A Full Stack Web App to share your meal prep with friends and coworkers.",
+      description: "A React App to share your meal prep with friends and coworkers. Fully styled using TailwindCSS. Realtime Firebase Database, Authentication and Storage.",
       imgUrl: platemate,
+      url:"https://platemate.onrender.com/",
       github: "https://github.com/alexisNorthcoders/PlateMate",
       stack: ["JavaScript", "React", "Tailwind CSS", "Firebase"]
     },
@@ -125,7 +126,7 @@ function Projects() {
 
     {
       title: "Advent of Code",
-      description: "My solutions for some challenges from 2023 Advent of Code event. Using JavaScript and Python.",
+      description: "My solutions for some challenges from 2023 and 20220 Advent of Code event. Using JavaScript, Python and more recently TypeScript.",
       imgUrl: advent,
       github: "https://github.com/alexisNorthcoders/adventCode2023",
       stack: ["JavaScript", "Python"]
