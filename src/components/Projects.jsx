@@ -15,6 +15,7 @@ import express from "../assets/img/express.png";
 import platemate from "../assets/img/platemate.png";
 import raspberry from "../assets/img/raspberry.png";
 import portfolio from "../assets/img/portfolio.png";
+import noteapp from "../assets/img/noteapp.gif";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -89,6 +90,14 @@ function Projects() {
       imgUrl: whatsappchef,
       github: "https://github.com/alexisNorthcoders/WhatsappChef",
       stack: ["JavaScript", "Nodejs", "Express", "Edamam", "Twilio"]
+    },
+    {
+      title: "Note AI Interpreter",
+      description: "Note taking app to showcase vector embedding workflow with an AI model.",
+      imgUrl: noteapp,
+      url:"https://note-app-ai.vercel.app/",
+      github: "https://github.com/alexisNorthcoders/note-taking-app-AI",
+      stack: ["TypeScript", "Nextjs", "MongoDB", "Pinecone", "TailwindCSS"]
     },
 
     {
