@@ -16,6 +16,8 @@ import platemate from "../assets/img/platemate.png";
 import raspberry from "../assets/img/raspberry.png";
 import portfolio from "../assets/img/portfolio.png";
 import noteapp from "../assets/img/noteapp.gif";
+import midikeyboard from "../assets/img/midikeyboard.gif";
+import selfdrivingcar from "../assets/img/self-driving-car.gif";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -76,6 +78,21 @@ function Projects() {
     },
   ];
   const personalProjects = [
+    {
+      title: "Neural Network Self-Driving Car",
+      description: "Mini-game with the objective of training a Neural Network to drive a car through traffic.",
+      imgUrl: selfdrivingcar,
+      github: "https://github.com/alexisNorthcoders/self-driving-car",
+      url:"https://neural-network-car-game.netlify.app/",
+      stack: ["JavaScript", "HTML","Canvas","CSS","OOP", "Machine Learning"]
+    },
+    {
+      title: "Children's MIDI Keyboard",
+      description: "Web app where you can use your mouse, keyboard or MIDI keyboard to play music notes.",
+      imgUrl: midikeyboard,
+      github: "https://github.com/alexisNorthcoders/midi-chat-sockets",
+      stack: ["JavaScript", "Nodejs", "Express", "HTML", "TailwindCSS", "CSS","OpenAI", "Websockets"]
+    },
     {
       title: "Back End Express Server",
       description: "Express server that does many things. Hosts APIs for many projects, hosts front end for many projects including this portfolio, has its own Whatsapp assistant and other random utilities.",
@@ -159,7 +176,7 @@ function Projects() {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Here you can see some Personal Projects, some coding exercises and Northcoders projects I've done while in the bootcamp.</p>
+                  <p>Here you can see some Personal Projects, some coding exercises and Northcoders projects I have done while in the bootcamp.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
