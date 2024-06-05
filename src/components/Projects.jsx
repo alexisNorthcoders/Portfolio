@@ -72,7 +72,7 @@ function Projects() {
       title: "Simon Mini Game",
       description: "Small app to practice DOM manipulation",
       imgUrl: simongame,
-      url: "https://alexisraspberry.changeip.co/simongame",
+      url: "https://alexisraspberry.duckdns.org/chat/simongame",
       github: "https://github.com/alexisNorthcoders/simongame",
       stack: ["JavaScript", "CSS", "HTML"]
     },
@@ -136,7 +136,7 @@ function Projects() {
       title: "React Chat Assistant",
       description: "React App connecting to OpenAI. Uses streaming responses, gives memory to AI and shows code snippets in markdown format.",
       imgUrl: reactchat,
-      url: "https://alexisraspberry.changeip.co/chat",
+      url: "https://alexisraspberry.duckdns.org/chat",
       stack: ["JavaScript", "React", "OpenAI", "Nodejs", "Express"]
     },{
       title: "Portfolio",
