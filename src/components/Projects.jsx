@@ -161,10 +161,10 @@ function Projects() {
 
     {
       title: "Advent of Code",
-      description: "My solutions for some challenges from 2023 and 20220 Advent of Code event. Using JavaScript, Python and more recently TypeScript.",
+      description: "My solutions for some challenges from 2019 (TS), 2020 (C#), 2021 (Java), 2022 (TS) and 2023 (JS) Advent of Code event.",
       imgUrl: advent,
       github: "https://github.com/alexisNorthcoders/adventCode2023",
-      stack: ["JavaScript", "Python"]
+      stack: ["JavaScript", "Python","C#","Java","TypeScript"]
     },
     {
       title: "Raspberry Pi",
