@@ -5,6 +5,7 @@ import javarewards1 from "../assets/img/javarewards.png";
 import pokemon from "../assets/img/pokemon.png";
 import marketplace from "../assets/img/marketplace.png";
 import simongame from "../assets/img/simongame.png";
+import nextportfolio from "../assets/img/nextportfolio.png";
 import hangman2 from "../assets/img/hangman2.gif";
 import hangman1 from "../assets/img/hangman.gif";
 import advent from "../assets/img/advent.png";
@@ -78,6 +79,14 @@ function Projects() {
     },
   ];
   const personalProjects = [
+    {
+      title: "Portfolio with CMS",
+      description: "Portfolio Website with Next.js, Kinde(authentication), Supabase and Sanity (CMS)! It features a CMS(Content management system) to easily update content.",
+      imgUrl: nextportfolio,
+      github: "https://github.com/alexisNorthcoders/next_portfolio_CMS",
+      url:"https://next-portfolio-cms.vercel.app/",
+      stack: ["Next.js", "Tailwind","Supabase","CMS (Sanity)","Shadcn"]
+    },
     {
       title: "Neural Network Self-Driving Car",
       description: "Mini-game with the objective of training a Neural Network to drive a car through traffic.",
