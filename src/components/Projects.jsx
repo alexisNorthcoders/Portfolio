@@ -100,6 +100,7 @@ function Projects() {
       description: "Web app where you can use your mouse, keyboard or MIDI keyboard to play music notes.",
       imgUrl: midikeyboard,
       github: "https://github.com/alexisNorthcoders/midi-chat-sockets",
+      url:"https://alexisraspberry.duckdns.org/midi/",
       stack: ["JavaScript", "Nodejs", "Express", "HTML", "TailwindCSS", "CSS","OpenAI", "Websockets"]
     },
     {
