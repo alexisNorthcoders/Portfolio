@@ -19,6 +19,7 @@ import portfolio from "../assets/img/portfolio.png";
 import noteapp from "../assets/img/noteapp.gif";
 import midikeyboard from "../assets/img/midikeyboard.gif";
 import selfdrivingcar from "../assets/img/self-driving-car.gif";
+import clipcloud from "../assets/img/clipcloud.png";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -79,6 +80,14 @@ function Projects() {
     },
   ];
   const personalProjects = [
+    {
+      title: "ClipCloud",
+      description: "Web application allows users to easily share content by copying and pasting text or sharing files. Coded just with JavaScript, HTML and CSS.",
+      imgUrl: clipcloud,
+      github: "https://github.com/alexisNorthcoders/clipboard",
+      url:"https://clipboard.duckdns.org/",
+      stack: ["JavaScript", "Tailwind","HTML","Node.js","API","Websockets"]
+    },
     {
       title: "Portfolio with CMS",
       description: "Portfolio Website with Next.js, Kinde(authentication), Supabase and Sanity (CMS)! It features a CMS(Content management system) to easily update content.",
