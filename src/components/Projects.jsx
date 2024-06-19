@@ -82,7 +82,7 @@ function Projects() {
   const personalProjects = [
     {
       title: "ClipCloud",
-      description: "Web application allows users to easily share content by copying and pasting text or sharing files. Coded just with JavaScript, HTML and CSS.",
+      description: "Web application that allows users to easily share content by copying and pasting text or sharing files. Coded just with JavaScript, HTML and CSS.",
       imgUrl: clipcloud,
       github: "https://github.com/alexisNorthcoders/clipboard",
       url:"https://clipboard.duckdns.org/",
