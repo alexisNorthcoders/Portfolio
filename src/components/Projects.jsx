@@ -12,6 +12,8 @@ import advent from "../assets/img/advent.png";
 import whatsappchef from "../assets/img/whatsappchef.png";
 import reactchat from "../assets/img/reactchat.png";
 import platformer from "../assets/img/platformer.gif";
+import snake from "../assets/img/snake.png";
+import zigzag from "../assets/img/zigzag.png";
 import express from "../assets/img/express.png";
 import platemate from "../assets/img/platemate.png";
 import raspberry from "../assets/img/raspberry.png";
@@ -135,13 +137,29 @@ function Projects() {
       github: "https://github.com/alexisNorthcoders/note-taking-app-AI",
       stack: ["TypeScript", "Nextjs", "MongoDB", "Pinecone", "TailwindCSS"]
     },
-
     {
       title: "Platformer Game",
       description: "Small platformer game drawn on HTML Canvas to showcase OOP principles with game physics and mechanics. ",
       imgUrl: platformer,
+      url:"https://alexisraspberry.duckdns.org/kings-and-pigs/",
       github: "https://github.com/alexisNorthcoders/Platformer-Game",
       stack: ["JavaScript", "HTML", "Canvas", "Sprites"]
+    },
+    {
+      title: "Multiplayer Snake Game",
+      description: "Multiplayer Snake Game - drawn on Canvas featuring Websockets for realtime communication",
+      imgUrl: snake,
+      url:"https://alexisraspberry.duckdns.org/snake",
+      github: "https://github.com/alexisNorthcoders/p5_snake_game",
+      stack: ["Go","Websockets","JavaScript", "HTML", "Canvas"]
+    },
+    {
+      title: "Zigzag Game",
+      description: "Small game - drawn on Canvas, features Highscore functionality - submission for challenge on https://www.youtube.com/watch?v=1L5b9GVd75I&t=12s&ab_channel=RaduMariescu-Istodor",
+      imgUrl: zigzag,
+      url:"https://alexisraspberry.duckdns.org/zigzag/",
+      github: "https://github.com/alexisNorthcoders/zigzag-game",
+      stack: ["JavaScript", "HTML", "Canvas", "HTTP"]
     },
     {
       title: "PlateMate",
@@ -171,7 +189,7 @@ function Projects() {
 
     {
       title: "Advent of Code",
-      description: "My solutions for some challenges from 2019 (TS), 2020 (C#), 2021 (Java), 2022 (TS) and 2023 (JS) Advent of Code event.",
+      description: "My solutions for some challenges from 2019 (TS), 2020 (C#), 2021 (Java), 2022 (TS), 2023 (JS) and 2024 Advent of Code event.",
       imgUrl: advent,
       github: "https://github.com/alexisNorthcoders/adventCode2023",
       stack: ["JavaScript", "Python","C#","Java","TypeScript"]
@@ -180,7 +198,7 @@ function Projects() {
       title: "Raspberry Pi",
       description: "Most of my code is tested and hosted by my local Raspberry Pi",
       imgUrl: raspberry,
-      stack: ["ssh", "Nginx", "https", "SSL Certificates", "Raspberry Pi OS"]
+      stack: ["ssh", "Nginx", "https", "SSL Certificates", "Raspberry Pi OS", "Docker"]
     },
 
 
