@@ -87,7 +87,7 @@ function Projects() {
       description: "Web application that allows users to easily share content by copying and pasting text or sharing files. Coded just with JavaScript, HTML and CSS.",
       imgUrl: clipcloud,
       github: "https://github.com/alexisNorthcoders/clipboard",
-      url:"https://clipboard.duckdns.org/",
+      url:"https://clipcloud.duckdns.org/",
       stack: ["JavaScript", "Tailwind","HTML","Node.js","API","Websockets"]
     },
     {

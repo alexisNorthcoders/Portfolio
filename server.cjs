@@ -33,10 +33,11 @@ router.post("/contact", (req, res) => {
   const email = req.body.email;
   const message = req.body.message;
   const phone = req.body.phone;
+  const subject = req.body.subject ?? "Contact Form Submission - Portfolio"
   const mail = {
     from: name,
     to: process.env.GMAIL_EMAIL,
-    subject: "Contact Form Submission - Portfolio",
+    subject,
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Phone: ${phone}</p>
